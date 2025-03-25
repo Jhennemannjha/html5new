@@ -1,4 +1,6 @@
 div {
-    background: #c05d5d;
-    color: (srgb rgb(107, 95, 95) rgb(23, 143, 23) rgb(116, 16, 111));
+    color: (srgb #6b5f5f rgb(23, 143, 23) rgb(59, 47, 59));
+    background: #4d4040;
+    background-color: rgba(20%, 60%, 50%, 1);
+    background-color: hsla(120%, 100%, 60%, 1);
 }

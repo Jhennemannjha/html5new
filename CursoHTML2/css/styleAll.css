@@ -1,0 +1,16 @@
+#bloco03 {
+    background: #004400;
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+#bloco04 {
+    background: #0022FF;
+    font: bold 1.4em sans-serif;
+    color: #FFF;
+    margin-bottom: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+}

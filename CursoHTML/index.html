@@ -11,6 +11,8 @@
     <!-- Aqui usa o css dentro html "nao e uma boa pratica" -->
     <!-- se usa madia para dizer em qual plataforma vai roda "tv, celular etc"-->
     <!-- 
+        style e o proprio css so html e o i port e uma função que so funciona no css e como o style e o proprio css funciona
+        com o import, pode se chamar um css para dentro de outro css
          <style type="text/css" media="all">
             div {
                 background: #c05d5d;
@@ -23,6 +25,57 @@
             }
         </style>
     -->
+
+    <style type="text/css" media="all">
+        div {
+            /*background: #4d4040;
+            background-image: url(img/blue.jpg);
+            background-repeat: no-repeat;
+            background-position: center top;
+            /*juntar todos mas deve seguir essa ordem*/  
+            background: #4d4040 url(img/blue.jpg) no-repeat center top;
+            background-size: cover;
+            background-attachment: fixed;
+            /*font-family: "Times New Roman", Helvetica, sans-serif;*/
+            /*caso não encontre a Times New Roman, entre "" pois o nome contem espaço, passa para proxima assim por diante*/
+            /*font-size: 20px;*/
+            /*tamanho da fonte*/
+            /*font-weight: bold;*/
+            /*espessura da fonte*/
+            /*font-style: italic;*/
+            /*stilo da fonte*/
+            /*font-variant: small-caps;*/
+            /*pode colcoar todas as letras em maiusculo*/
+            /*line-height: 30px;*/
+            /*tamanho da linha, se n tiver nada ele usa o tamanho da fonte*/
+
+            /*pode se colocar todas essas informações dentro de uma unica font mas respeitar a ordem e no minimo tem que ter o tamanho e familia*/
+            /*o minimo que tem q ter e esse dois*/
+            /*font: 20px "Times New Roman", Helvetica, sans-serif;*/
+            /*quando mais, obrigado nessa ordem*/
+            font: bold italic /*small-caps*/ 20px/30px "Times New Roman", Helvetica, sans-serif ;
+            color: burlywood;
+            text-align: left ;
+            /*alinha mento de texto e temos o left center right justify*/
+            text-transform: capitalize;
+            /*deixa em caixa baixa a letras ou a primeiro,
+             uppercase:  todas em caixa auta (maiusculo)
+            lowercase tudo em minusculo 
+            capitalize toda primeira letra de cada palavra em maiusculo 
+            none: reseta */
+            text-decoration: underline overline ;
+            /*line-through cria uma linha no meio da palavra
+            underline cria linha embaixo do texto
+            overline cria linha acima do texto*/
+            text-indent: 50px;
+            /*edentação do texto "a cada nova linha cria adentação*/
+        }
+    </style>
+    <!-- posso abreviar num so backgroud 
+     background-size: cover;
+     toda dimenção
+    background-attachment: fixed
+    fix na rolagem-->
 </head>
 
 <body>
@@ -37,9 +90,9 @@
         <div>
             <h2>titulo 1.1</h2>
             <span style="color:blue">ipsum dolor sit, amet consectetur adipisicing elit.</span>
-            Assumenda, totam, inventore odit beatae architecto nostrum nisi id,
-            fuga natus iure illo provident eveniet tempora labore asperiores fugiat at.
-            A, iusto?
+            <p>Assumenda, totam, inventore odit beatae architecto nostrum nisi id,
+                fuga natus iure illo provident eveniet tempora labore asperiores fugiat at.
+                A, iusto?</p>
         </div>
         <h6>lista ordenada </h6>
         <ol>
@@ -57,10 +110,10 @@
         </ul>
         <div>
             <h4>lorem</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p>Consequatur eligendi porro provident aperiam nostrum ipsam </p>
-            <p> accusamus neque sapiente corrupti voluptatem</p>
-            <p>aspernatur nisi ratione eveniet sint enim facilis molestiae, non repellat?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Consequatur eligendi porro provident aperiam nostrum ipsam 
+            accusamus neque sapiente corrupti voluptatem
+            aspernatur nisi ratione eveniet sint enim facilis molestiae, non repellat?</p>
         </div>
         <div>
             <h4>lorem</h4>
@@ -76,6 +129,15 @@
             <p> accusamus neque sapiente corrupti voluptatem</p>
             <p>aspernatur nisi ratione eveniet sint enim facilis molestiae, non repellat?</p>
         </div>
+        kkkkkkkkkkkk
+        <div>
+            <h4>lorem</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Consequatur eligendi porro provident aperiam nostrum ipsam </p>
+            <p> accusamus neque sapiente corrupti voluptatem</p>
+            <p>aspernatur nisi ratione eveniet sint enim facilis molestiae, non repellat?</p>
+        </div>
+        kkkkkkkkkkkkkkkk
         <div>
             <h4>lorem</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -90,16 +152,11 @@
             <p> accusamus neque sapiente corrupti voluptatem</p>
             <p>aspernatur nisi ratione eveniet sint enim facilis molestiae, non repellat?</p>
         </div>
-        <div>
-            <h4>lorem</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p>Consequatur eligendi porro provident aperiam nostrum ipsam </p>
-            <p> accusamus neque sapiente corrupti voluptatem</p>
-            <p>aspernatur nisi ratione eveniet sint enim facilis molestiae, non repellat?</p>
-        </div>
+
         <h1 style="color: blue;" id="foralorem">Voce atracesou os lorens </h1>
         <a href="#inicio"> Voltar para o inicio</a>
         <h2>Novos lorens</h2>
+
         <div>
             <h4>lorem</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
